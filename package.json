@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run",
+    "test": " cypress open",
    
-    "kirill" :"npx cypress run --spec cypress/e2e/kiriil_koel.cy.js",
-    "spec" : "npx cypress run --spec cypress/e2e/spec.cy.js"
+    "kirill" :"cypress run --spec cypress/e2e/kiriil_koel.cy.js",
+    "spec" : "cypress run --spec cypress/e2e/spec.cy.js"
    },
   "author": "",
   "license": "ISC",

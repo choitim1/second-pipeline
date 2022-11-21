@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
-    "runOnChrome": "cypress run --browser chrome",
+   
     "kirill" :"npx cypress run --spec cypress/e2e/kiriil_koel.cy.js",
     "spec" : "npx cypress run --spec cypress/e2e/spec.cy.js"
    },

@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open",
-   
-    "kirill" :"cypress run --spec cypress/e2e/kiriil_koel.cy.js",
-    "spec" : "cypress run --browser chrome"
-   },
+    "test": "cypress run ",
+    "kirill": "cypress run --spec cypress/e2e/kiriil_koel.cy.js",
+    "spec": "cypress run --browser chrome"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^11.1.0"
+    "cypress": "^11.2.0"
   }
 }
